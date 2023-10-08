@@ -27,7 +27,6 @@ formulario && formulario.addEventListener('submit', function (event) {
      /* location.href = '/pages/form.html' */
 })
 
-videosource && videosource.onended = (event) => {
-    buttonNav.click();
-  };
-
+videosource.addEventListener("ended", (e) => {
+    buttonNav.click()
+})
