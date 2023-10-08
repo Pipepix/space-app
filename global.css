@@ -14,14 +14,15 @@ body{
   max-width: 600px;
   height: 100vh;
   margin: 0 auto;
-  background-color: blueviolet;
+  background-image: url('./img/background.jpg');
+  background-size:contain;
   background-repeat: no-repeat;
   position: relative;
   overflow: hidden;
 
 }
 
-.main-container button {
+.main-container .nav-button {
   position: absolute;
   margin: 10px;
   bottom: 0;
