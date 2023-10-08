@@ -129,3 +129,8 @@ body{
   border-color: #973939;
   color: #973939;
 }
+
+.title{
+  text-align: center;
+  margin: 50px;
+}
