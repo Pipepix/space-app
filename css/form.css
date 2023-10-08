@@ -1,0 +1,20 @@
+.form-container{
+    background-image: url('../img/background1.gif');
+    background-size:cover;
+    padding: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    padding: 20px;
+    background-color: #47bcc5;
+    border-radius: 10px;
+}
+.form-group-inputs{
+    background-color: #9fced2;
+    padding: 10px;
+    border-radius: 10px;
+}
