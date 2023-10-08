@@ -1,6 +1,9 @@
 
 const form = document.getElementById("form")
 
+const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
+
 function validarInputs() {
 
     const distancia = document.getElementById("input-distancia").value;
