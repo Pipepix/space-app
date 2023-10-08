@@ -4,14 +4,14 @@ const videosource = document.getElementById('video-inicio');
 
 const buttonNav= document.getElementById('button-nav');
 
-/* function cambiarvideos(video, url){
+ function cambiarvideos(video, url){
     video.onended = (event) => {
         video.src = url; 
         video.load(); 
         video.play(); 
     
       };
-} */
+}
 formulario && formulario.addEventListener('submit', function (event) {
 
     event.preventDefault();
