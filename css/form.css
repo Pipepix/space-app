@@ -18,3 +18,14 @@
     padding: 10px;
     border-radius: 10px;
 }
+
+.form-title{
+    font-weight: 800;
+    font-size: 40px;
+    letter-spacing: 1px;
+
+}
+
+.form-label{
+    font-size: 25px;
+}

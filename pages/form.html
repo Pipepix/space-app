@@ -1,4 +1,4 @@
-<!DOCTYPE html >
+<!DOCTYPE html>
 <html lang="en" translate="no">
 
 <head>
@@ -25,10 +25,14 @@
     <main class="main-container form-container">
         <form class="form" id="form">
             <div class="mb-3 text-center">
-                <h3 class="">Variables</h3>
-                <div class="my-1 form-group-inputs">
-                    <label for="customRange2" class="form-label " data-bs-toggle="tooltip" data-bs-placement="top" title="Try to guess what the habitable zone of a planet is. Will it be far away, very close, or at an intermediate point from the parent star?">Distance to star</label>
-                    <input type="range" class="form-range" id="input-distancia" min="0" value="0" max="2" >
+                <h3 class="form-title">Variables</h3>
+                <div class="my-1 form-group-inputs position-relative">
+                    <label for="customRange2 " class="form-label">Distance to star</label>
+                    <button type="button" class="btn btn-info mx-2 rounded-pill position-absolute end-0" data-bs-container="body" data-bs-toggle="popover"
+                        data-bs-placement="bottom" data-bs-content="Try to guess what the habitable zone of a planet is. Will it be far away, very close, or at an intermediate point from the parent star?">
+                        i
+                    </button>
+                    <input type="range" class="form-range" id="input-distancia" min="0" value="0" max="2">
                     <div class="d-flex justify-content-between">
                         <span>Small</span>
                         <span>Medium</span>
@@ -36,9 +40,13 @@
                     </div>
                 </div>
 
-                <div class="my-4 form-group-inputs">
-                    <label for="customRange2" class="form-label " data-bs-toggle="tooltip" data-bs-placement="top" title="Imagine that at the center of a planet, there's a magnet pulling everything towards it. It can have more or less strength. An example of a celestial body with weak gravity is the Moon, where you can make very high jumps.">  Gravity  </label>
-                    <input type="range" class="form-range" min="0" value="2" id="input-gravedad" max="2" >
+                <div class="my-4 form-group-inputs position-relative">
+                    <label for="customRange2" class="form-label"> Gravity </label>
+                    <button type="button" class="btn btn-info mx-2 rounded-pill position-absolute end-0" data-bs-container="body" data-bs-toggle="popover"
+                        data-bs-placement="bottom" data-bs-content="Imagine that at the center of a planet, there's a magnet pulling everything towards it. It can have more or less strength. An example of a celestial body with weak gravity is the Moon, where you can make very high jumps.">
+                        i
+                    </button>
+                    <input type="range" class="form-range" min="0" value="2" id="input-gravedad" max="2">
                     <div class="d-flex justify-content-between">
                         <span>Low</span>
                         <span>Medium</span>
@@ -46,14 +54,17 @@
                     </div>
                 </div>
 
-                <div class="my-1 form-group-inputs">
-                    <label for="customRange2" class="form-label " data-bs-toggle="tooltip" data-bs-placement="top" title="Do you know how the seasons work? During a planet's journey around its star, there are times when it gets closer to the star and other times when it gets farther away. Do you think that affects its temperature?">Orbit eccentricity
-                    </label>
+                <div class="my-1 form-group-inputs position-relative">
+                    <label for="customRange2" class=" form-label">Orbit eccentricity</label>
+                    <button type="button" class="btn btn-info mx-2 rounded-pill position-absolute end-0" data-bs-container="body" data-bs-toggle="popover"
+                        data-bs-placement="bottom" data-bs-content="Do you know how the seasons work? During a planet's journey around its star, there are times when it gets closer to the star and other times when it gets farther away. Do you think that affects its temperature?">
+                        i
+                    </button>
                     <input type="range" class="form-range" min="0" max="1" id="input-exentricidad">
                     <div class="d-flex justify-content-between">
                         <span>Circular</span>
                         <span>Elliptcal</span>
-                       
+
                     </div>
                 </div>
 
