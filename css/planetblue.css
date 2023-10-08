@@ -11,6 +11,10 @@
     transform: scale(1.6);
 }
 
+span{
+    color: #48c6cf;
+}
+
 .text-container{
     padding: 50px 20px;
     width: 90%;
