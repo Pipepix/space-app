@@ -12,6 +12,7 @@ const buttonNav= document.getElementById('button-nav');
     
       };
 }
+
 formulario && formulario.addEventListener('submit', function (event) {
 
     event.preventDefault();
